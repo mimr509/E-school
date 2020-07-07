@@ -1,0 +1,149 @@
+body{
+  margin:0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg-light {
+  background-color: #F0FFF0 !important;
+}
+
+.header {
+  background-color: #F0FFF0;
+  height:680px;
+  
+}
+.header-area{
+  padding-top:30px;
+  padding-bottom:200px;
+}
+
+.logo-area{
+  width:30%;
+ 
+}
+.logo-area img{
+  width:90%;
+}
+
+.menu-list {
+  position: absolute;
+  right:10px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color:#F0FFF0;
+  
+}
+ 
+  
+
+.active{
+  background-color:#21B573;
+  padding:10px 40px;
+  border-radius:5px;
+}
+.active:hover{
+  background-color: green;
+  
+  
+}
+.menu-list ul li a {
+  margin-right:40px;
+  font-size: 18px;
+}
+
+.pic{
+  width:100%;
+}
+.learn-area h5{
+width: 188px;
+height: 24px;
+left: 205px;
+top: 178px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #FD511A;
+
+}
+.learn-area h1{
+width: 405px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 70px;
+color: #000000;
+  
+}
+.learn-area h1 span{
+  color:  #21B573;
+}
+.learn-area p{
+  width: 403px;
+height: 85px;
+left: 205px;
+top: 371px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 36px;
+color: #6C6B6B;
+}
+.btn{
+padding: 10px 20px;
+
+background: #21B573;
+border-radius:33px;
+color:#fff;
+}
+
+
+.icon{
+ margin-top:80px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 0;
+  
+  
+}
+
+
+.logo img{
+  width: 80px;
+  height: 95px;
+}
+.logo {
+  text-align: center;
+  
+}
+.text h5 {
+margin-top:20px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #413960;
+}
+.text p{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #585859;
+
+
+}
+.col-md-3:hover{
+  cursor: pointer;
+  box-shadow: 10px 10px 30px grey;
+  border-top-right-radius: 33px;
+  border-bottom-left-radius:33px ;
+}
