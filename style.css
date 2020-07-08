@@ -147,6 +147,11 @@ color: #585859;
   border-top-right-radius: 33px;
   border-bottom-left-radius:33px ;
 }
+.card{
+  box-shadow: 10px 10px 15px grey;
+  background: #fff;
+  border-radius: 10px;
+}
 .card-footer img{
   width:20px;
   height:20px;
@@ -161,11 +166,22 @@ color: #585859;
   border-top: none;
   background-color: #F0FFF0;
 }
-.on-header{
+.course-header{
   text-align: center;
   padding-top:80px;
   padding-bottom: 80px;
   color:#6C6B6B;
 }
 
-
+/* start testimonial area */
+.testi-header{
+  text-align: center;
+  padding-top:80px;
+  padding-bottom: 80px;
+  color:#6C6B6B;
+}
+.man img{
+  width:250px;
+  height:250px;
+  text-align: center;
+}
